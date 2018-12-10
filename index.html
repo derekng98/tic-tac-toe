@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tic-Tac-Toe Challenge</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+	<h1>Tic Tac Toe</h1>
+
+	<table class="container">
+	    <tr class="row">
+	        <td class="box" id="1" onclick="nextMove(this)"></td>
+	        <td class="box" id="2" onclick="nextMove(this)"></td>
+	        <td class="box" id="3" onclick="nextMove(this)"></td>
+	    </tr>
+	    <tr class="row">
+	        <td class="box" id="4" onclick="nextMove(this)"></td>
+	        <td class="box" id="5" onclick="nextMove(this)"></td>
+	        <td class="box" id="6" onclick="nextMove(this)"></td>
+	    </tr>
+	    <tr class="row">
+	        <td class="box" id="7" onclick="nextMove(this)"></td>
+	        <td class="box" id="8" onclick="nextMove(this)"></td>
+	        <td class="box" id="9" onclick="nextMove(this)"></td>
+	    </tr>
+	</table>
+	<button onclick="clearBoard('box')"> clear </button>
+
+	<script src='./script.js'></script>
+</body>
+</html>
