@@ -20,7 +20,7 @@ function switchMove() {
 		alert( move + ' won!')
 	}
 	else if (checkTie()){
-		alert("It's a tie!")
+		alert("It's a tie! Please clear board to restart.")
 	}
 	else if(move == "X") {
 		move = "O";
